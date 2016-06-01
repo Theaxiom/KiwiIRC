@@ -1,0 +1,6 @@
+kiwiirc:
+  image: 'travisrowland/kiwiirc:latest'
+  autoredeploy: true
+  autorestart: 'ALWAYS'
+  ports:
+    - '7778:7778'
